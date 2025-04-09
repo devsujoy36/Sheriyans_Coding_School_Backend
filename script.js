@@ -23,7 +23,7 @@ let findArr = arr.find(function (val) {
 })
 
 arr.indexOf(2)
-arr.length()
+// arr.length()
 
 
 // objects key value pairs
@@ -42,6 +42,16 @@ Object.freeze(student)
 
 
 
+// function 
+function abcd() {
+    return 12;
+}
+abcd()
 
-
+async function abcde() {
+    var blob = await fetch(`https://randomuser.me/api/`)
+    var ans = await blob.json();
+    console.log(ans.results[0])
+}
+abcde()
 
