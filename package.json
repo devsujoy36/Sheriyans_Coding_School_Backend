@@ -15,5 +15,9 @@
     "url": "https://github.com/devsujoy36/Sheriyans_Coding_School_Backend/issues"
   },
   "homepage": "https://github.com/devsujoy36/Sheriyans_Coding_School_Backend#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "accessibility": "^6.0.7",
+    "express": "^5.1.0"
+  }
 }
